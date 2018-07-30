@@ -1,7 +1,7 @@
 clear all; 
 clc
 
-fname = 'AlphasenseData_26072018_1.csv';
+fname = 'AlphasenseData_26072018_3.csv';
 data = importfile(fname);
 dt = datetime(datenum(data.DateTime),'convertfrom','datenum');
 
